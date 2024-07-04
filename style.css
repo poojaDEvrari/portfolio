@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 2em 0;
+}
+.v{
+
+    align:bottom;
+    background-color:pink;
+    padding:10px;
+    font-size:25px;}
+    .b{
+
+        align:bottom;
+        background-color:rgb(239, 234, 136);
+        padding:10px;
+        font-size:25px;}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+h1 {
+   color: #0044cc;
+}
+
+h2 {
+   
+    color: #09090a;
+}
+.skills {
+    background-color: #e3f2fd;
+    padding: 2em;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-card {
+    background-color: #faa09a;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.skill-card h3 {
+    margin-top: 0;
+}
+
+.skill-card p {
+    margin: 0;
+}
+.contact {
+    background-color: #fff8e1;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 300px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    margin-top: 1em;
+}
+
+.social-icons {
+    margin-top: 1em;
+}
+
+.social-icons a {
+    margin: 0 0.5em;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #0044cc;
+}
+.hero-text {
+    text-align: left;
+}
+
+.hero-text h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #0044cc;
+}
