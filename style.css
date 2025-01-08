@@ -383,6 +383,8 @@ h1 {
         font-size: 0.3rem;
         white-space: nowrap; /* Prevent email from wrapping */
     }
+    header div {
+         font-size: 0.3rem;}
 
     /* Optional: Reduce size of any logo or image in the header */
     header .logo {
