@@ -348,25 +348,46 @@ h1 {
 }
 
 /* For medium screens (tablets, max-width: 1024px) */
-@media (max-width: 1024px) {
-    .skills-grid,
-    .project-grid {
-        gap: 2rem;
+/* Header in a Single Row for Mobile Screens */
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between; /* Space between logo/email and nav items */
+        align-items: center;
+        padding: 0.5rem 1rem;
+        background-color: #2e3b4e; /* Adjust background color as needed */
     }
 
-    .skill-card,
-    .project-card,
-    .achievement-card {
-        width: 45%; /* Adjust to fit two items in a row */
+    header nav {
+        display: flex;
+        gap: 1rem; /* Space between menu items */
+        flex-wrap: nowrap; /* Ensure no wrapping occurs */
+        overflow-x: auto; /* Allow horizontal scrolling if needed */
     }
 
-    .hero h1 {
-        font-size: 2.5rem;
+    header nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-direction: row; /* Force links into a single row */
     }
 
-    .hero h2 {
-        font-size: 1.3rem;
+    header nav ul li {
+        margin: 0;
+        padding: 0;
+        font-size: 0.9rem; /* Adjust font size for mobile */
+    }
+
+    header .email {
+        font-size: 0.8rem;
+        white-space: nowrap; /* Prevent email from wrapping */
+    }
+
+    /* Optional: Reduce size of any logo or image in the header */
+    header .logo {
+        max-width: 40px;
+        max-height: 40px;
     }
 }
 
-/* For large screens (default behavior, no changes needed) */
