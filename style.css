@@ -354,13 +354,13 @@ h1 {
         display: flex;
         justify-content: space-between; /* Space between logo/email and nav items */
         align-items: center;
-        padding: 0.5rem 1rem;
+        padding: 0.2rem 0.5rem;
         background-color: #2e3b4e; /* Adjust background color as needed */
     }
 
     header nav {
         display: flex;
-        gap: 1rem; /* Space between menu items */
+        gap: 0.5rem; /* Space between menu items */
         flex-wrap: nowrap; /* Ensure no wrapping occurs */
         overflow-x: auto; /* Allow horizontal scrolling if needed */
     }
@@ -376,18 +376,18 @@ h1 {
     header nav ul li {
         margin: 0;
         padding: 0;
-        font-size: 0.9rem; /* Adjust font size for mobile */
+        font-size: 0.4rem; /* Adjust font size for mobile */
     }
 
     header .email {
-        font-size: 0.8rem;
+        font-size: 0.3rem;
         white-space: nowrap; /* Prevent email from wrapping */
     }
 
     /* Optional: Reduce size of any logo or image in the header */
     header .logo {
-        max-width: 40px;
-        max-height: 40px;
+        max-width: 30px;
+        max-height: 30px;
     }
 }
 
